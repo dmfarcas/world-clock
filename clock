@@ -2,8 +2,6 @@
 const moment = require('moment-timezone');
 const { timezones, format } = require('./config');
 const Table = require('cli-table');
-
-// instantiate
 const head = ['Timezone', 'Current Hour'];
 const table = new Table({
   head
